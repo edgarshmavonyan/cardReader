@@ -2,10 +2,10 @@
 #pragma once
 
 class CreditCardReaderInterface: public CardReaderInterface {
+    friend class CreditCardLoggerProxy;
 protected:
-    // delete it in release!!!
-    static const double TEST_BALANCE_CONSTANT_OK = 42.42;
+    virtual std::string _logInfo() const = 0;
 public:
-    virtual std::string readInfo() override = 0;
-    virtual double getBalance() = 0;
+    virtual std::string readInfo() const override = 0;
+    virtual double getBalance() const = 0;
 };

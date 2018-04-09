@@ -1,9 +1,5 @@
-#include <gtest/gtest.h>
-#include <iostream>
-
-TEST(first, kekos) {
-    std::cout << "AHAH";
-}
+#include "testMirCard.h"
+#include "testVisaCard.h"
 
 int main(int argc, char* argv[]) {
     testing::InitGoogleTest(&argc, argv);

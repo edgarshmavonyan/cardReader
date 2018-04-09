@@ -3,5 +3,6 @@
 
 class PassportReader: public CardReaderInterface {
 public:
-    std::string readInfo() override;
+    std::string readInfo() const override;
+    std::string getAge() const;
 };
