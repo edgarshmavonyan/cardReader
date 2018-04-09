@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcardReader_src.a  CMakeFiles/cardReader_src.dir/passportReader.cc.o CMakeFiles/cardReader_src.dir/mirCardReader.cc.o CMakeFiles/cardReader_src.dir/visaCardReader.cc.o CMakeFiles/cardReader_src.dir/creditCardLoggerProxy.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcardReader_src.a

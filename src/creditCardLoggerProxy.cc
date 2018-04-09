@@ -5,11 +5,13 @@ std::string CreditCardLoggerProxy::_logInfo() const {
 }
 
 void CreditCardLoggerProxy::_logToStream(const std::string &logInfo) const {
-    (*_out) << logInfo << std::endl;
+    if (_out != nullptr) {
+        (*_out) << logInfo << std::endl;
+    }
 }
 
-CreditCardLoggerProxy::CreditCardLoggerProxy(std::shared_ptr<CreditCardReaderInterface> cardReader, std::ofstream &out):
-        _cardReader(std::move(cardReader)), _out(&out) {}
+CreditCardLoggerProxy::CreditCardLoggerProxy(std::shared_ptr<CreditCardReaderInterface> cardReader, std::ofstream* out):
+        _cardReader(std::move(cardReader)), _out(out) {}
 
 CreditCardLoggerProxy::CreditCardLoggerProxy(std::shared_ptr<CreditCardReaderInterface> cardReader, const std::string& fileName):
         _cardReader(std::move(cardReader)), _out(new std::ofstream()) {
@@ -27,6 +29,8 @@ double CreditCardLoggerProxy::getBalance() const {
 }
 
 CreditCardLoggerProxy::~CreditCardLoggerProxy() {
-    _out->close();
+    if (_out != nullptr) {
+        _out->close();
+    }
     delete _out;
 }

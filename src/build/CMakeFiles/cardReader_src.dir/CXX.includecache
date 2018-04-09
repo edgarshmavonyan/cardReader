@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/creditCardLoggerProxy.cc
+cardReader/creditCardLoggerProxy.h
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/cardReader/creditCardLoggerProxy.h
+
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/mirCardReader.cc
+cardReader/mirCardReader.h
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/cardReader/mirCardReader.h
+
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/passportReader.cc
+cardReader/passportReader.h
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/cardReader/passportReader.h
+
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/visaCardReader.cc
+cardReader/visaCardReader.h
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/cardReader/visaCardReader.h
+

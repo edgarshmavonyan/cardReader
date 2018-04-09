@@ -1,0 +1,3 @@
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/build/CMakeFiles/rebuild_cache.dir
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/build/CMakeFiles/edit_cache.dir
+/Users/edgarshmavonyan/Documents/ClionProjects/cardReader/src/build/CMakeFiles/cardReader_src.dir
