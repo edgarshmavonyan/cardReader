@@ -1,1 +1,1 @@
-# THE BEST READER OF YEAR (C) LUKASHOV
+# the best reader
