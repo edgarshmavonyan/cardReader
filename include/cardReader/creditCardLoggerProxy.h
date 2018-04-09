@@ -2,6 +2,7 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include <fstream>
+#include <memory>
 #pragma once
 
 /// Proxy to log the information about credit cards

@@ -1,5 +1,4 @@
 #include "cardReader/creditCardLoggerProxy.h"
-#include <memory>
 
 std::string CreditCardLoggerProxy::_logInfo() const {
     return _cardReader->_logInfo();
