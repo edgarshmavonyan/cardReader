@@ -1,1 +1,1 @@
-universal card reader
+# THE BEST READER OF YEAR (C) LUKASHOV

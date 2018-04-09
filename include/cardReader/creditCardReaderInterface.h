@@ -1,6 +1,8 @@
 #include "cardReaderInterface.h"
 #pragma once
 
+/// The common interface for credit cards of different types (inheritor of CardReaderInterface)
+/// @inherit
 class CreditCardReaderInterface: public CardReaderInterface {
     friend class CreditCardLoggerProxy;
 protected:
